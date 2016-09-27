@@ -1,0 +1,420 @@
+**** Week 114 almanac for SV-01 ************
+ID:                         01                             sv
+Health:                     000
+Eccentricity:               5.072116852E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.661647081E-001               I_0
+Rate of Right Ascen(r/s):  -7.851755690E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153675781E+003               SQRT_A
+Right Ascen at TOA(rad):    9.531436563E-001               OMEGA_0
+Argument of Perigee(rad):  -1.737150192E+000               OMEGA
+Mean Anom(rad):             2.435420752E+000               M_0
+Af0(s):                     2.012252808E-004               Af0
+Af1(s/s):                   3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-02 ************
+ID:                         02                             sv
+Health:                     060
+Eccentricity:               2.135658264E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.331840873E-001               I_0
+Rate of Right Ascen(r/s):  -7.931759249E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153602051E+003               SQRT_A
+Right Ascen at TOA(rad):    2.947101593E+000               OMEGA_0
+Argument of Perigee(rad):  -2.006861925E+000               OMEGA
+Mean Anom(rad):            -5.711281300E-001               M_0
+Af0(s):                    -9.918212891E-005               Af0
+Af1(s/s):                  -7.275957614E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-03 ************
+ID:                         03                             sv
+Health:                     000
+Eccentricity:               2.558708191E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.353532195E-001               I_0
+Rate of Right Ascen(r/s):  -8.263201678E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153633301E+003               SQRT_A
+Right Ascen at TOA(rad):   -2.258039713E+000               OMEGA_0
+Argument of Perigee(rad):   5.173110962E-001               OMEGA
+Mean Anom(rad):            -1.875895619E+000               M_0
+Af0(s):                     7.915496826E-005               Af0
+Af1(s/s):                   3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-04 ************
+ID:                         04                             sv
+Health:                     000
+Eccentricity:               5.654335022E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.721447825E-001               I_0
+Rate of Right Ascen(r/s):  -8.171769039E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153503418E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.136661410E+000               OMEGA_0
+Argument of Perigee(rad):  -4.271155298E-001               OMEGA
+Mean Anom(rad):             1.703795791E+000               M_0
+Af0(s):                     4.682540894E-004               Af0
+Af1(s/s):                  -2.546585165E-011               Af1
+week:                       114
+
+**** Week 114 almanac for SV-05 ************
+ID:                         05                             sv
+Health:                     000
+Eccentricity:               3.262042999E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.362700582E-001               I_0
+Rate of Right Ascen(r/s):  -7.897472010E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153512695E+003               SQRT_A
+Right Ascen at TOA(rad):    2.968166113E+000               OMEGA_0
+Argument of Perigee(rad):   4.932729602E-001               OMEGA
+Mean Anom(rad):             1.460322738E+000               M_0
+Af0(s):                     3.204345703E-004               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-06 ************
+ID:                         06                             sv
+Health:                     000
+Eccentricity:               6.762981415E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.428793192E-001               I_0
+Rate of Right Ascen(r/s):  -8.228914439E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153581055E+003               SQRT_A
+Right Ascen at TOA(rad):   -2.211906433E+000               OMEGA_0
+Argument of Perigee(rad):  -2.237381935E+000               OMEGA
+Mean Anom(rad):             2.531629324E+000               M_0
+Af0(s):                    -9.536743164E-007               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-07 ************
+ID:                         07                             sv
+Health:                     000
+Eccentricity:               1.203727722E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.446529746E-001               I_0
+Rate of Right Ascen(r/s):  -8.160339959E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153728027E+003               SQRT_A
+Right Ascen at TOA(rad):   -2.241805792E+000               OMEGA_0
+Argument of Perigee(rad):  -1.980823874E+000               OMEGA
+Mean Anom(rad):            -1.784571767E+000               M_0
+Af0(s):                     5.588531494E-004               Af0
+Af1(s/s):                   2.546585165E-011               Af1
+week:                       114
+
+**** Week 114 almanac for SV-08 ************
+ID:                         08                             sv
+Health:                     000
+Eccentricity:               8.262634277E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.588243365E-001               I_0
+Rate of Right Ascen(r/s):  -8.057479128E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153650391E+003               SQRT_A
+Right Ascen at TOA(rad):    2.010436058E+000               OMEGA_0
+Argument of Perigee(rad):   2.060757637E+000               OMEGA
+Mean Anom(rad):             2.804812908E+000               M_0
+Af0(s):                     6.103515625E-004               Af0
+Af1(s/s):                   1.455191523E-011               Af1
+week:                       114
+
+**** Week 114 almanac for SV-09 ************
+ID:                         09                             sv
+Health:                     000
+Eccentricity:               1.248502731E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.449825883E-001               I_0
+Rate of Right Ascen(r/s):  -8.263201678E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153632324E+003               SQRT_A
+Right Ascen at TOA(rad):    1.956094027E+000               OMEGA_0
+Argument of Perigee(rad):   7.778791785E-001               OMEGA
+Mean Anom(rad):             2.249580383E+000               M_0
+Af0(s):                    -1.430511475E-005               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-10 ************
+ID:                         10                             sv
+Health:                     000
+Eccentricity:               4.538059235E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.795510769E-001               I_0
+Rate of Right Ascen(r/s):  -7.543171421E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153640625E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.119614989E-001               OMEGA_0
+Argument of Perigee(rad):   7.094886154E-002               OMEGA
+Mean Anom(rad):            -5.119840503E-001               M_0
+Af0(s):                     1.335144043E-005               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-11 ************
+ID:                         11                             sv
+Health:                     000
+Eccentricity:               9.398460388E-004               e
+Time of Applicability(s):   5.038080000E+005               TOA
+Orbital Inclination(rad):   9.198815823E-001               I_0
+Rate of Right Ascen(r/s):  -8.743221258E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153634277E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.217188001E+000               OMEGA_0
+Argument of Perigee(rad):  -2.111963272E+000               OMEGA
+Mean Anom(rad):             6.120774746E-001               M_0
+Af0(s):                     4.768371582E-006               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-13 ************
+ID:                         13                             sv
+Health:                     000
+Eccentricity:               1.810073853E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.703891277E-001               I_0
+Rate of Right Ascen(r/s):  -7.771752131E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153612793E+003               SQRT_A
+Right Ascen at TOA(rad):    9.321884513E-001               OMEGA_0
+Argument of Perigee(rad):   1.278316081E-001               OMEGA
+Mean Anom(rad):             2.205134928E-002               M_0
+Af0(s):                    -6.675720215E-006               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-14 ************
+ID:                         14                             sv
+Health:                     000
+Eccentricity:               2.157211304E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.650441408E-001               I_0
+Rate of Right Ascen(r/s):  -7.806039370E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153629883E+003               SQRT_A
+Right Ascen at TOA(rad):    9.277898669E-001               OMEGA_0
+Argument of Perigee(rad):  -5.280699134E-001               OMEGA
+Mean Anom(rad):             3.059737921E+000               M_0
+Af0(s):                    -1.220703125E-004               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-15 ************
+ID:                         15                             sv
+Health:                     000
+Eccentricity:               8.008480072E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.786462784E-001               I_0
+Rate of Right Ascen(r/s):  -8.080336400E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153594238E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.090703845E+000               OMEGA_0
+Argument of Perigee(rad):   1.769490004E+000               OMEGA
+Mean Anom(rad):            -3.089925051E+000               M_0
+Af0(s):                     1.001358032E-004               Af0
+Af1(s/s):                   3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-18 ************
+ID:                         18                             sv
+Health:                     000
+Eccentricity:               2.411842346E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.623476863E-001               I_0
+Rate of Right Ascen(r/s):  -7.691749460E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153612793E+003               SQRT_A
+Right Ascen at TOA(rad):   -6.483765692E-002               OMEGA_0
+Argument of Perigee(rad):   2.874702930E+000               OMEGA
+Mean Anom(rad):             1.313534379E+000               M_0
+Af0(s):                    -7.534027100E-005               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 107 almanac for SV-19 ************
+ID:                         19                             sv
+Health:                     000
+Eccentricity:               7.081985474E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.295528531E-001               I_0
+Rate of Right Ascen(r/s):  -8.011762809E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153586426E+003               SQRT_A
+Right Ascen at TOA(rad):    2.766803026E+000               OMEGA_0
+Argument of Perigee(rad):  -2.518493176E+000               OMEGA
+Mean Anom(rad):             3.818765879E-001               M_0
+Af0(s):                     4.100799561E-005               Af0
+Af1(s/s):                   1.455191523E-011               Af1
+week:                       107
+
+**** Week 114 almanac for SV-20 ************
+ID:                         20                             sv
+Health:                     000
+Eccentricity:               2.087593079E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.630308151E-001               I_0
+Rate of Right Ascen(r/s):  -7.691749460E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153685059E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.169151068E-001               OMEGA_0
+Argument of Perigee(rad):   2.128565550E+000               OMEGA
+Mean Anom(rad):            -3.371907771E-001               M_0
+Af0(s):                    -1.106262207E-004               Af0
+Af1(s/s):                  -3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-21 ************
+ID:                         21                             sv
+Health:                     000
+Eccentricity:               1.790046692E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.792094827E-001               I_0
+Rate of Right Ascen(r/s):  -7.508884181E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153591309E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.060435399E-001               OMEGA_0
+Argument of Perigee(rad):  -2.399835587E+000               OMEGA
+Mean Anom(rad):            -2.514069378E-001               M_0
+Af0(s):                     5.722045898E-006               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-22 ************
+ID:                         22                             sv
+Health:                     000
+Eccentricity:               1.472854614E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.326927662E-001               I_0
+Rate of Right Ascen(r/s):  -7.943188329E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153566406E+003               SQRT_A
+Right Ascen at TOA(rad):    2.960529804E+000               OMEGA_0
+Argument of Perigee(rad):   7.243415713E-001               OMEGA
+Mean Anom(rad):            -8.941920996E-001               M_0
+Af0(s):                     3.805160522E-004               Af0
+Af1(s/s):                   4.001776688E-011               Af1
+week:                       114
+
+**** Week 114 almanac for SV-23 ************
+ID:                         23                             sv
+Health:                     000
+Eccentricity:               1.573419571E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.824991822E-001               I_0
+Rate of Right Ascen(r/s):  -7.474596941E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153345703E+003               SQRT_A
+Right Ascen at TOA(rad):   -6.357444078E-002               OMEGA_0
+Argument of Perigee(rad):  -1.810238957E+000               OMEGA
+Mean Anom(rad):             2.263033688E-001               M_0
+Af0(s):                     2.288818359E-005               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-24 ************
+ID:                         24                             sv
+Health:                     000
+Eccentricity:               9.498596191E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.822714925E-001               I_0
+Rate of Right Ascen(r/s):  -8.057479128E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153561035E+003               SQRT_A
+Right Ascen at TOA(rad):   -1.119447947E+000               OMEGA_0
+Argument of Perigee(rad):  -1.611594796E+000               OMEGA
+Mean Anom(rad):             2.337280512E+000               M_0
+Af0(s):                     2.861022949E-006               Af0
+Af1(s/s):                   3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-25 ************
+ID:                         25                             sv
+Health:                     000
+Eccentricity:               9.084224701E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.377680421E-001               I_0
+Rate of Right Ascen(r/s):  -8.308917998E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153750000E+003               SQRT_A
+Right Ascen at TOA(rad):    1.913005590E+000               OMEGA_0
+Argument of Perigee(rad):  -1.931979179E+000               OMEGA
+Mean Anom(rad):             3.068623066E+000               M_0
+Af0(s):                     1.907348633E-005               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-26 ************
+ID:                         26                             sv
+Health:                     000
+Eccentricity:               1.310968399E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.690349102E-001               I_0
+Rate of Right Ascen(r/s):  -7.806039370E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153694336E+003               SQRT_A
+Right Ascen at TOA(rad):    9.369375706E-001               OMEGA_0
+Argument of Perigee(rad):   3.008164167E-001               OMEGA
+Mean Anom(rad):            -2.183058739E+000               M_0
+Af0(s):                     3.814697266E-006               Af0
+Af1(s/s):                  -3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-27 ************
+ID:                         27                             sv
+Health:                     000
+Eccentricity:               1.542949677E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.422981143E-001               I_0
+Rate of Right Ascen(r/s):  -8.263201678E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153590332E+003               SQRT_A
+Right Ascen at TOA(rad):    1.936807752E+000               OMEGA_0
+Argument of Perigee(rad):  -2.530610085E+000               OMEGA
+Mean Anom(rad):             1.604184389E+000               M_0
+Af0(s):                     9.536743164E-007               Af0
+Af1(s/s):                   0.000000000E+000               Af1
+week:                       114
+
+**** Week 114 almanac for SV-28 ************
+ID:                         28                             sv
+Health:                     000
+Eccentricity:               5.635738373E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.599269032E-001               I_0
+Rate of Right Ascen(r/s):  -7.657462220E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153627441E+003               SQRT_A
+Right Ascen at TOA(rad):    3.027658224E+000               OMEGA_0
+Argument of Perigee(rad):  -2.478095531E+000               OMEGA
+Mean Anom(rad):            -2.532828599E-002               M_0
+Af0(s):                    -3.337860107E-005               Af0
+Af1(s/s):                  -3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-29 ************
+ID:                         29                             sv
+Health:                     000
+Eccentricity:               8.525848389E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.659489393E-001               I_0
+Rate of Right Ascen(r/s):  -7.794610291E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153856445E+003               SQRT_A
+Right Ascen at TOA(rad):    9.073721170E-001               OMEGA_0
+Argument of Perigee(rad):  -1.865916133E+000               OMEGA
+Mean Anom(rad):            -2.279077291E+000               M_0
+Af0(s):                     6.160736084E-004               Af0
+Af1(s/s):                  -3.637978807E-012               Af1
+week:                       114
+
+**** Week 114 almanac for SV-30 ************
+ID:                         30                             sv
+Health:                     000
+Eccentricity:               5.991458893E-003               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.434066415E-001               I_0
+Rate of Right Ascen(r/s):  -7.817468450E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153584473E+003               SQRT_A
+Right Ascen at TOA(rad):    3.002919436E+000               OMEGA_0
+Argument of Perigee(rad):   1.343576550E+000               OMEGA
+Mean Anom(rad):             3.661667556E-002               M_0
+Af0(s):                     1.296997070E-004               Af0
+Af1(s/s):                   1.818989404E-011               Af1
+week:                       114
+
+**** Week 114 almanac for SV-31 ************
+ID:                         31                             sv
+Health:                     099
+Eccentricity:               1.042747498E-002               e
+Time of Applicability(s):   4.055040000E+005               TOA
+Orbital Inclination(rad):   9.440957308E-001               I_0
+Rate of Right Ascen(r/s):  -8.206056279E-009               OMEGA_DOT
+SQRT(A) (m^1/2):            5.153642578E+003               SQRT_A
+Right Ascen at TOA(rad):   -2.241910696E+000               OMEGA_0
+Argument of Perigee(rad):   8.665167689E-001               OMEGA
+Mean Anom(rad):            -2.781110525E+000               M_0
+Af0(s):                     7.247924805E-005               Af0
+Af1(s/s):                   3.637978807E-012               Af1
+week:                       114
+-999

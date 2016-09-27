@@ -1,0 +1,145 @@
+% AAE 575. HW 3. Rizwan Qureshi.
+% PROBLEM 2:
+
+clear all; clc; close all;
+
+load dualfreq_sv1.mat;
+
+sv_1_K_model = dualfreq;
+
+GPS_t1 = sv_1_K_model(:,1);   % [secs]
+
+sv_1_AZ = sv_1_K_model(:,2);   % [Azimuth angle DEG]
+sv_1_EL = sv_1_K_model(:,3);   % [Elevation angle. DEG]
+
+L1_P_range = sv_1_K_model(:,4);    % [meters] 
+L2_P_range = sv_1_K_model(:,5);     % [meters] 
+
+L1_C_phase = sv_1_K_model(:,6);   % [cycles]
+L2_C_phase = sv_1_K_model(:,7);   % [cycles]
+
+
+% % Time when satellite PRN13 is tracked
+% GPS_t2 = orbit_sv_13(:,1);   % [secs]. GPS_t1 = GPS_t2
+
+% % Satellite PRN 13's x,y,z position coordinates:
+% x_s = orbit_sv_13(:,2);   % [meters]
+% y_s = orbit_sv_13(:,3);   % [meters]
+% z_s = orbit_sv_13(:,4);   % [meters]
+
+% Location of Receiver which is on the GROUND:
+x_R = -1288337.0539;    % [meters]
+y_R = -4721990.4483;   % [meters]
+z_R = 4078321.6617;    % [meters]
+
+%Determine Geodetic lat and longitude of Receiver:
+lla  = ecef2lla([x_R, y_R, z_R]);
+latitude_R = lla(1);   % [Deg]
+longitude_R = lla(2);  % [Deg]
+height_R = lla(3);    % [meters]
+
+% Determine Psi using Approximation:
+psi_deg = [(445./(sv_1_EL + 20))-4];   % Psi [Deg]
+
+% Determine latitude of IPP:
+phi_I_Deg = [latitude_R*ones(1,611)]' + [(psi_deg.*cosd(sv_1_AZ))]; % Latitude of IPP [deg]
+
+% Determine longitude of IPP:
+lamda_I_Deg = [-longitude_R*ones(1,611)]' + [psi_deg.*(sind(sv_1_AZ)./cosd(phi_I_Deg))]; % Longitude of IPP [deg]
+
+% Determine Geomagnetic latitude of the IPP:
+phi_M_deg = phi_I_Deg + 0.064*cosd(lamda_I_Deg-1.617);  %[deg]
+
+%Now compute A2 and A4:
+
+format long
+A2 =  [0.028e-6*(phi_M_deg/57.3).^0] + [-0.007e-6*(phi_M_deg/57.3).^1] + [-0.119e-6*(phi_M_deg/57.3).^2] + [0.119e-6*(phi_M_deg/57.3).^3];
+
+A4 =  [137.0e3*(phi_M_deg/57.3).^0] + [-49.0e3*(phi_M_deg/57.3).^1] + [-131.0e3*(phi_M_deg/57.3).^2] + [-262.0e3*(phi_M_deg/57.3).^3];
+
+
+t = 43200*(lamda_I_Deg/57.3)+ GPS_t1;
+
+x = [2*pi*(t-50400)]./A4;
+
+% EXACT obliquity factor F:
+
+F = secd(asind(0.94792*cosd(sv_1_EL)));
+
+Ionosphere_delay_K_model = F* 5e-9;   % in [Seconds]
+
+figure(1)
+plot(t/3600,Ionosphere_delay_K_model)
+xlabel('Apparent local time (Hours)')
+ylabel('Delay due to Ionosphere (Seconds)')
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Problem 2  %%%%%%%%%%%%%%%%
+
+c = 299792458;  % speed of light in [m/sec]
+f_L1 = 1575.42e06;
+f_L2 = 1227.60e06;
+
+A = [(f_L1^2*f_L2^2)/(f_L2^2-f_L1^2)]*[L1_P_range - L2_P_range]; % [m/sec^2]
+
+Dual_freq_delay = [1/(c*f_L1^2)]
+
+
+
+% phi_star_L1 = f1^2/(f1^2-f2^2)*phi_L1 - f1*f2/(f1^2-f2^2)*phi_L2
+% 
+% or
+% 
+% phi_star_L1 = 2.5457*phi_L1 - 1.9837*phi_L2; 
+
+
+%Compute True Geometric range (r(t)):
+
+% r_true = sqrt([(ones(1,101)'*x_R - x_s).^2 + (ones(1,101)'*y_R - y_s).^2 + (ones(1,101)'*z_R - z_s).^2]) ;
+% 
+% rho_star = 2.546*L1_P_range - 1.546*L2_P_range;
+
+
+% 
+% figure(1)
+% plot(GPS_t1,r_true,'r')
+% hold on
+% plot(GPS_t1,rho_star)
+% xlabel('GPS Time (seconds)')
+% ylabel('Range (meters)')
+% legend('True Geometric range', 'Ionosphere free Pseudorange')
+% 
+% c = 299792458;  % speed of light in [m/sec]
+% 
+% lamda1 = c/(1575.42e06);
+% lamda2 = c/(1227.60e06);
+% 
+% carrier_phase_true_range = ((lamda1/(2*pi))* L1_C_phase) +  ((lamda2/(2*pi))* L2_C_phase);
+% phi_star = [2.5457*(lamda1/(2*pi))* L1_C_phase] - [1.9837*(lamda2/(2*pi))* L2_C_phase];
+% 
+% figure(2)
+% plot(GPS_t1,carrier_phase_true_range,'r')
+% hold on
+% plot(GPS_t1,phi_star)
+% xlabel('GPS Time (seconds)')
+% ylabel('Range (meters)')
+% legend('True carrier phase range', 'Ionosphere free carrier phase')
+% 
+% 
+% % best_fit = 0.038427*(GPS_t1).^2 -5474.8*GPS_t1 + 2.1515e+008 ;
+% % best_fit = 2.4078e-006*(GPS_t1).^3 -0.4446*(GPS_t1).^2 + 26822*(GPS_t1) -5.046e+008
+% 
+% % % Coefficients:
+% %   p1 = -9.4509e-015;
+% %   p2 = 3.133e-009;
+% %   p3 = -0.00041297;
+% %   p4 = 27.088;
+% %   p5 = -8.8551e+005;
+% %   p6 = 1.1586e+010;
+% %   
+% % best_fit =  -9.4509e-015*((GPS_t1).^5) + 3.133e-009*((GPS_t1).^4) + -0.00041297*((GPS_t1).^3) +  27.088*((GPS_t1).^2) + -8.8551e+005*((GPS_t1)) + 1.1586e+010;
+% % 
+% % figure(3)
+% % plot(GPS_t1,r_true,'r')
+% % hold on
+% % plot(GPS_t1,best_fit)

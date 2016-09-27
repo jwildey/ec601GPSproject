@@ -1,0 +1,700 @@
+ **** Week    114 ephemeris for SV- 1 ************
+ ID:                          1
+ Eccentricity:                5.074774264E-03              e
+ Time of Applicability(s):    2.592000000E+05              TOE
+ Orbital Inclination(rad):    9.660761358E-01              I_0
+ Rate of Right Ascen(r/s):   -8.324275491E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153724030E+03              SQRT_A
+ Right Ascen at TOA(rad):     9.543188826E-01              OMEGA_0
+ Argument of Perigee(rad):   -1.737210523E+00              OMEGA
+ Mean Anom(rad):             -5.399248955E-02              M_0
+ mean motion diff(r/s):       4.771984585E-09              DELTA_N
+ Rate of inclin (r/s):        4.714482138E-10              I_DOT
+ lat cosine ampl (r):         2.549961209E-06              CUC
+ Lat sine ampl   (r):         5.718320608E-06              CUS
+ radius cos ampl (m):         2.725937500E+02              CRC
+ radius sin ampl (m):         4.746875000E+01              CRS
+ inclin cos ampl(r):         -7.450580597E-08              CIC
+ inclin sin ampl(r):          1.490116119E-08              CIS
+ week:                         114
+ t_gd:                       -3.259629011E-09              T_GD
+ t_oc:                        2.592000000E+05              T_OC
+ Af0(s):                      2.013929188E-04              af0
+ Af1(s/s):                    1.818989404E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 2 ************
+ ID:                          2
+ Eccentricity:                2.135363687E-02              e
+ Time of Applicability(s):    1.728000000E+05              TOE
+ Orbital Inclination(rad):    9.332501837E-01              I_0
+ Rate of Right Ascen(r/s):   -7.756394638E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153661659E+03              SQRT_A
+ Right Ascen at TOA(rad):     2.948996074E+00              OMEGA_0
+ Argument of Perigee(rad):   -2.007209904E+00              OMEGA
+ Mean Anom(rad):             -3.097075495E+00              M_0
+ mean motion diff(r/s):       4.748412330E-09              DELTA_N
+ Rate of inclin (r/s):        5.107355858E-11              I_DOT
+ lat cosine ampl (r):         1.436099410E-06              CUC
+ Lat sine ampl   (r):         1.208484173E-05              CUS
+ radius cos ampl (m):         1.265625000E+02              CRC
+ radius sin ampl (m):         3.009375000E+01              CRS
+ inclin cos ampl(r):          2.402812243E-07              CIC
+ inclin sin ampl(r):         -2.793967724E-07              CIS
+ week:                         114
+ t_gd:                       -1.862645149E-09              T_GD
+ t_oc:                        1.728000000E+05              T_OC
+ Af0(s):                     -9.767105803E-05              af0
+ Af1(s/s):                   -5.911715562E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 3 ************
+ ID:                          3
+ Eccentricity:                2.547537326E-03              e
+ Time of Applicability(s):    2.520000000E+05              TOE
+ Orbital Inclination(rad):    9.352987781E-01              I_0
+ Rate of Right Ascen(r/s):   -8.748578750E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153688175E+03              SQRT_A
+ Right Ascen at TOA(rad):    -2.256728681E+00              OMEGA_0
+ Argument of Perigee(rad):    5.176493009E-01              OMEGA
+ Mean Anom(rad):              8.667702313E-01              M_0
+ mean motion diff(r/s):       5.394510616E-09              DELTA_N
+ Rate of inclin (r/s):        3.117986980E-10              I_DOT
+ lat cosine ampl (r):         4.906207323E-06              CUC
+ Lat sine ampl   (r):         4.069879651E-06              CUS
+ radius cos ampl (m):         2.845625000E+02              CRC
+ radius sin ampl (m):         9.250000000E+01              CRS
+ inclin cos ampl(r):          1.862645149E-08              CIC
+ inclin sin ampl(r):         -1.862645149E-09              CIS
+ week:                         114
+ t_gd:                       -4.190951586E-09              T_GD
+ t_oc:                        2.520000000E+05              T_OC
+ Af0(s):                      7.893331349E-05              af0
+ Af1(s/s):                    3.183231456E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 4 ************
+ ID:                          4
+ Eccentricity:                5.652099266E-03              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.721848048E-01              I_0
+ Rate of Right Ascen(r/s):   -8.325346634E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153553513E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.135494156E+00              OMEGA_0
+ Argument of Perigee(rad):   -4.272961170E-01              OMEGA
+ Mean Anom(rad):              2.626163695E-01              M_0
+ mean motion diff(r/s):       4.464471903E-09              DELTA_N
+ Rate of inclin (r/s):       -4.660908326E-10              I_DOT
+ lat cosine ampl (r):        -4.990026355E-06              CUC
+ Lat sine ampl   (r):         4.732981324E-06              CUS
+ radius cos ampl (m):         2.943750000E+02              CRC
+ radius sin ampl (m):        -9.425000000E+01              CRS
+ inclin cos ampl(r):          9.313225746E-08              CIC
+ inclin sin ampl(r):         -4.097819328E-08              CIS
+ week:                         114
+ t_gd:                       -6.053596735E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                      4.712697119E-04              af0
+ Af1(s/s):                   -2.432898327E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 5 ************
+ ID:                          5
+ Eccentricity:                3.250250011E-03              e
+ Time of Applicability(s):    2.087840000E+05              TOE
+ Orbital Inclination(rad):    9.363323970E-01              I_0
+ Rate of Right Ascen(r/s):   -8.031405763E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153571037E+03              SQRT_A
+ Right Ascen at TOA(rad):     2.969759636E+00              OMEGA_0
+ Argument of Perigee(rad):    4.894296521E-01              OMEGA
+ Mean Anom(rad):             -2.098179373E+00              M_0
+ mean motion diff(r/s):       4.731982806E-09              DELTA_N
+ Rate of inclin (r/s):        4.857345429E-11              I_DOT
+ lat cosine ampl (r):         1.855194569E-06              CUC
+ Lat sine ampl   (r):         1.207739115E-05              CUS
+ radius cos ampl (m):         1.338750000E+02              CRC
+ radius sin ampl (m):         3.593750000E+01              CRS
+ inclin cos ampl(r):         -4.284083843E-08              CIC
+ inclin sin ampl(r):         -2.421438694E-08              CIS
+ week:                         114
+ t_gd:                       -4.190951586E-09              T_GD
+ t_oc:                        2.087840000E+05              T_OC
+ Af0(s):                      3.203805536E-04              af0
+ Af1(s/s):                    1.477928890E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 6 ************
+ ID:                          6
+ Eccentricity:                6.769447704E-03              e
+ Time of Applicability(s):    2.159840000E+05              TOE
+ Orbital Inclination(rad):    9.428108478E-01              I_0
+ Rate of Right Ascen(r/s):   -8.717505828E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153632212E+03              SQRT_A
+ Right Ascen at TOA(rad):    -2.210295732E+00              OMEGA_0
+ Argument of Perigee(rad):   -2.238004734E+00              OMEGA
+ Mean Anom(rad):              2.119302211E-02              M_0
+ mean motion diff(r/s):       5.244504386E-09              DELTA_N
+ Rate of inclin (r/s):        3.157274442E-10              I_DOT
+ lat cosine ampl (r):         3.650784492E-06              CUC
+ Lat sine ampl   (r):         3.496184945E-06              CUS
+ radius cos ampl (m):         3.032500000E+02              CRC
+ radius sin ampl (m):         6.825000000E+01              CRS
+ inclin cos ampl(r):          3.725290298E-09              CIC
+ inclin sin ampl(r):          1.378357410E-07              CIS
+ week:                         114
+ t_gd:                       -4.656612873E-09              T_GD
+ t_oc:                        2.159840000E+05              T_OC
+ Af0(s):                     -8.875504136E-07              af0
+ Af1(s/s):                   -1.136868377E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 7 ************
+ ID:                          7
+ Eccentricity:                1.204203011E-02              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.445976033E-01              I_0
+ Rate of Right Ascen(r/s):   -8.363920223E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153780014E+03              SQRT_A
+ Right Ascen at TOA(rad):    -2.240634293E+00              OMEGA_0
+ Argument of Perigee(rad):   -1.981162903E+00              OMEGA
+ Mean Anom(rad):              3.060242958E+00              M_0
+ mean motion diff(r/s):       5.058782282E-09              DELTA_N
+ Rate of inclin (r/s):        3.428714257E-10              I_DOT
+ lat cosine ampl (r):         5.021691322E-06              CUC
+ Lat sine ampl   (r):         4.025176167E-06              CUS
+ radius cos ampl (m):         2.894375000E+02              CRC
+ radius sin ampl (m):         9.743750000E+01              CRS
+ inclin cos ampl(r):          9.313225746E-08              CIC
+ inclin sin ampl(r):         -2.104789019E-07              CIS
+ week:                         114
+ t_gd:                       -1.862645149E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                      5.549280904E-04              af0
+ Af1(s/s):                    2.671640686E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 8 ************
+ ID:                          8
+ Eccentricity:                8.262448828E-03              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.588776031E-01              I_0
+ Rate of Right Ascen(r/s):   -8.243914884E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153709890E+03              SQRT_A
+ Right Ascen at TOA(rad):     2.011589961E+00              OMEGA_0
+ Argument of Perigee(rad):    2.060282958E+00              OMEGA
+ Mean Anom(rad):              1.365661811E+00              M_0
+ mean motion diff(r/s):       4.819486588E-09              DELTA_N
+ Rate of inclin (r/s):       -4.932348419E-10              I_DOT
+ lat cosine ampl (r):        -3.375113010E-06              CUC
+ Lat sine ampl   (r):         6.368383765E-06              CUS
+ radius cos ampl (m):         2.536562500E+02              CRC
+ radius sin ampl (m):        -6.162500000E+01              CRS
+ inclin cos ampl(r):          1.806765795E-07              CIC
+ inclin sin ampl(r):         -1.229345798E-07              CIS
+ week:                         114
+ t_gd:                       -4.190951586E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                      6.082379259E-04              af0
+ Af1(s/s):                    1.409716788E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV- 9 ************
+ ID:                          9
+ Eccentricity:                1.247822726E-02              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.450245179E-01              I_0
+ Rate of Right Ascen(r/s):   -8.614644997E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153695667E+03              SQRT_A
+ Right Ascen at TOA(rad):     1.957276409E+00              OMEGA_0
+ Argument of Perigee(rad):    7.776172020E-01              OMEGA
+ Mean Anom(rad):              8.100025744E-01              M_0
+ mean motion diff(r/s):       5.255218927E-09              DELTA_N
+ Rate of inclin (r/s):       -5.378795742E-10              I_DOT
+ lat cosine ampl (r):        -2.723187208E-06              CUC
+ Lat sine ampl   (r):         5.798414350E-06              CUS
+ radius cos ampl (m):         2.613437500E+02              CRC
+ radius sin ampl (m):        -5.253125000E+01              CRS
+ inclin cos ampl(r):         -1.210719347E-07              CIC
+ inclin sin ampl(r):          9.313225746E-08              CIS
+ week:                         114
+ t_gd:                       -5.587935448E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                     -1.439312473E-05              af0
+ Af1(s/s):                   -1.705302566E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-10 ************
+ ID:                         10
+ Eccentricity:                4.533201456E-03              e
+ Time of Applicability(s):    2.592000000E+05              TOE
+ Orbital Inclination(rad):    9.795595767E-01              I_0
+ Rate of Right Ascen(r/s):   -7.549600056E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153683117E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.108396706E-01              OMEGA_0
+ Argument of Perigee(rad):    7.257543906E-02              OMEGA
+ Mean Anom(rad):             -3.003504181E+00              M_0
+ mean motion diff(r/s):       3.753727995E-09              DELTA_N
+ Rate of inclin (r/s):        1.589351983E-10              I_DOT
+ lat cosine ampl (r):        -1.136213541E-06              CUC
+ Lat sine ampl   (r):         1.219660044E-05              CUS
+ radius cos ampl (m):         1.566562500E+02              CRC
+ radius sin ampl (m):        -2.315625000E+01              CRS
+ inclin cos ampl(r):         -1.676380634E-08              CIC
+ inclin sin ampl(r):         -1.676380634E-08              CIS
+ week:                         114
+ t_gd:                       -2.328306437E-09              T_GD
+ t_oc:                        2.592000000E+05              T_OC
+ Af0(s):                      1.277821139E-05              af0
+ Af1(s/s):                    5.684341886E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-11 ************
+ ID:                         11
+ Eccentricity:                9.445582982E-04              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.199181212E-01              I_0
+ Rate of Right Ascen(r/s):   -8.905371551E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153700127E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.215056813E+00              OMEGA_0
+ Argument of Perigee(rad):   -2.125092573E+00              OMEGA
+ Mean Anom(rad):             -2.586633238E+00              M_0
+ mean motion diff(r/s):       5.743453713E-09              DELTA_N
+ Rate of inclin (r/s):       -3.964450990E-10              I_DOT
+ lat cosine ampl (r):        -4.654750228E-06              CUC
+ Lat sine ampl   (r):         3.598630428E-06              CUS
+ radius cos ampl (m):         2.854687500E+02              CRC
+ radius sin ampl (m):        -9.087500000E+01              CRS
+ inclin cos ampl(r):          6.519258022E-08              CIC
+ inclin sin ampl(r):          2.607703209E-08              CIS
+ week:                         114
+ t_gd:                       -8.381903172E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                      4.847068340E-06              af0
+ Af1(s/s):                    2.273736754E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-13 ************
+ ID:                         13
+ Eccentricity:                1.807842287E-03              e
+ Time of Applicability(s):    2.592000000E+05              TOE
+ Orbital Inclination(rad):    9.702964277E-01              I_0
+ Rate of Right Ascen(r/s):   -8.133196339E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153660149E+03              SQRT_A
+ Right Ascen at TOA(rad):     9.333551247E-01              OMEGA_0
+ Argument of Perigee(rad):    1.260354981E-01              OMEGA
+ Mean Anom(rad):             -2.466407735E+00              M_0
+ mean motion diff(r/s):       4.585191338E-09              DELTA_N
+ Rate of inclin (r/s):        4.878774607E-10              I_DOT
+ lat cosine ampl (r):         2.540647984E-06              CUC
+ Lat sine ampl   (r):         5.898997188E-06              CUS
+ radius cos ampl (m):         2.700000000E+02              CRC
+ radius sin ampl (m):         4.859375000E+01              CRS
+ inclin cos ampl(r):         -4.842877388E-08              CIC
+ inclin sin ampl(r):         -4.470348358E-08              CIS
+ week:                         114
+ t_gd:                       -1.164153218E-08              T_GD
+ t_oc:                        2.592000000E+05              T_OC
+ Af0(s):                     -6.732065231E-06              af0
+ Af1(s/s):                   -4.547473509E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-14 ************
+ ID:                         14
+ Eccentricity:                2.161083161E-03              e
+ Time of Applicability(s):    2.376000000E+05              TOE
+ Orbital Inclination(rad):    9.649434510E-01              I_0
+ Rate of Right Ascen(r/s):   -8.183912215E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153677097E+03              SQRT_A
+ Right Ascen at TOA(rad):     9.291454492E-01              OMEGA_0
+ Argument of Perigee(rad):   -5.282016742E-01              OMEGA
+ Mean Anom(rad):             -2.580724136E+00              M_0
+ mean motion diff(r/s):       4.789128205E-09              DELTA_N
+ Rate of inclin (r/s):        3.943021465E-10              I_DOT
+ lat cosine ampl (r):         2.428889275E-06              CUC
+ Lat sine ampl   (r):         5.617737770E-06              CUS
+ radius cos ampl (m):         2.737812500E+02              CRC
+ radius sin ampl (m):         4.706250000E+01              CRS
+ inclin cos ampl(r):         -6.146728992E-08              CIC
+ inclin sin ampl(r):          4.470348358E-08              CIS
+ week:                         114
+ t_gd:                       -1.024454832E-08              T_GD
+ t_oc:                        2.376000000E+05              T_OC
+ Af0(s):                     -1.226956956E-04              af0
+ Af1(s/s):                    1.250555215E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-15 ************
+ ID:                         15
+ Eccentricity:                8.005224052E-03              e
+ Time of Applicability(s):    2.304000000E+05              TOE
+ Orbital Inclination(rad):    9.787008087E-01              I_0
+ Rate of Right Ascen(r/s):   -7.918901090E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153644356E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.089261575E+00              OMEGA_0
+ Argument of Perigee(rad):    1.768256366E+00              OMEGA
+ Mean Anom(rad):              2.786409082E+00              M_0
+ mean motion diff(r/s):       4.231604844E-09              DELTA_N
+ Rate of inclin (r/s):       -3.985880515E-10              I_DOT
+ lat cosine ampl (r):        -4.773959517E-06              CUC
+ Lat sine ampl   (r):         5.781650543E-06              CUS
+ radius cos ampl (m):         2.763125000E+02              CRC
+ radius sin ampl (m):        -9.387500000E+01              CRS
+ inclin cos ampl(r):          1.005828381E-07              CIC
+ inclin sin ampl(r):         -2.421438694E-08              CIS
+ week:                         114
+ t_gd:                       -2.328306437E-09              T_GD
+ t_oc:                        2.304000000E+05              T_OC
+ Af0(s):                      9.905733168E-05              af0
+ Af1(s/s):                    4.433786671E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-18 ************
+ ID:                         18
+ Eccentricity:                2.413269365E-03              e
+ Time of Applicability(s):    2.232000000E+05              TOE
+ Orbital Inclination(rad):    9.623381022E-01              I_0
+ Rate of Right Ascen(r/s):   -7.848541372E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153658587E+03              SQRT_A
+ Right Ascen at TOA(rad):    -6.341002322E-02              OMEGA_0
+ Argument of Perigee(rad):    2.867267878E+00              OMEGA
+ Mean Anom(rad):             -1.370242204E-01              M_0
+ mean motion diff(r/s):       4.244105511E-09              DELTA_N
+ Rate of inclin (r/s):        1.878649736E-10              I_DOT
+ lat cosine ampl (r):        -3.576278687E-07              CUC
+ Lat sine ampl   (r):         1.175329089E-05              CUS
+ radius cos ampl (m):         1.553750000E+02              CRC
+ radius sin ampl (m):        -6.375000000E+00              CRS
+ inclin cos ampl(r):          1.862645149E-08              CIC
+ inclin sin ampl(r):         -1.862645149E-08              CIS
+ week:                         114
+ t_gd:                       -1.024454832E-08              T_GD
+ t_oc:                        2.232000000E+05              T_OC
+ Af0(s):                     -7.540313527E-05              af0
+ Af1(s/s):                   -2.273736754E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week     81 ephemeris for SV-19 ************
+ ID:                         19
+ Eccentricity:                6.696413620E-03              e
+ Time of Applicability(s):    4.032000000E+05              TOE
+ Orbital Inclination(rad):    9.287702107E-01              I_0
+ Rate of Right Ascen(r/s):   -8.604644108E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153649454E+03              SQRT_A
+ Right Ascen at TOA(rad):    -2.535984626E-01              OMEGA_0
+ Argument of Perigee(rad):   -2.563650038E+00              OMEGA
+ Mean Anom(rad):             -1.930719431E-01              M_0
+ mean motion diff(r/s):       5.571660910E-09              DELTA_N
+ Rate of inclin (r/s):        6.893144389E-11              I_DOT
+ lat cosine ampl (r):        -8.121132851E-07              CUC
+ Lat sine ampl   (r):         6.508082151E-06              CUS
+ radius cos ampl (m):         2.379062500E+02              CRC
+ radius sin ampl (m):        -1.812500000E+01              CRS
+ inclin cos ampl(r):          3.539025784E-08              CIC
+ inclin sin ampl(r):          9.685754776E-08              CIS
+ week:                          81
+ t_gd:                       -3.259629011E-09              T_GD
+ t_oc:                        4.032000000E+05              T_OC
+ Af0(s):                      4.659597762E-04              af0
+ Af1(s/s):                    1.148237061E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-20 ************
+ ID:                         20
+ Eccentricity:                2.100582235E-03              e
+ Time of Applicability(s):    2.520000000E+05              TOE
+ Orbital Inclination(rad):    9.630378700E-01              I_0
+ Rate of Right Ascen(r/s):   -7.727464890E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153731276E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.157099561E-01              OMEGA_0
+ Argument of Perigee(rad):    2.127882796E+00              OMEGA
+ Mean Anom(rad):              2.407197438E+00              M_0
+ mean motion diff(r/s):       4.124814712E-09              DELTA_N
+ Rate of inclin (r/s):        1.439345726E-10              I_DOT
+ lat cosine ampl (r):        -1.216307282E-06              CUC
+ Lat sine ampl   (r):         1.221522689E-05              CUS
+ radius cos ampl (m):         1.452812500E+02              CRC
+ radius sin ampl (m):        -2.596875000E+01              CRS
+ inclin cos ampl(r):          3.725290298E-09              CIC
+ inclin sin ampl(r):          2.980232239E-08              CIS
+ week:                         114
+ t_gd:                       -6.519258022E-09              T_GD
+ t_oc:                        2.520000000E+05              T_OC
+ Af0(s):                     -1.103342511E-04              af0
+ Af1(s/s):                   -3.069544618E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-21 ************
+ ID:                         21
+ Eccentricity:                1.787865115E-02              e
+ Time of Applicability(s):    2.375840000E+05              TOE
+ Orbital Inclination(rad):    9.792101090E-01              I_0
+ Rate of Right Ascen(r/s):   -7.876399977E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153629253E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.047559912E-01              OMEGA_0
+ Argument of Perigee(rad):   -2.401389030E+00              OMEGA
+ Mean Anom(rad):              3.898903521E-01              M_0
+ mean motion diff(r/s):       3.972665752E-09              DELTA_N
+ Rate of inclin (r/s):        8.143196534E-11              I_DOT
+ lat cosine ampl (r):        -8.381903172E-07              CUC
+ Lat sine ampl   (r):         1.173093915E-05              CUS
+ radius cos ampl (m):         1.664062500E+02              CRC
+ radius sin ampl (m):        -1.968750000E+01              CRS
+ inclin cos ampl(r):         -1.080334187E-07              CIC
+ inclin sin ampl(r):          2.905726433E-07              CIS
+ week:                         114
+ t_gd:                       -2.328306437E-09              T_GD
+ t_oc:                        2.375840000E+05              T_OC
+ Af0(s):                      5.209352821E-06              af0
+ Af1(s/s):                    1.136868377E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-22 ************
+ ID:                         22
+ Eccentricity:                1.471281576E-02              e
+ Time of Applicability(s):    2.519840000E+05              TOE
+ Orbital Inclination(rad):    9.327580215E-01              I_0
+ Rate of Right Ascen(r/s):   -8.174626309E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153628307E+03              SQRT_A
+ Right Ascen at TOA(rad):     2.961781249E+00              OMEGA_0
+ Argument of Perigee(rad):    7.233885258E-01              OMEGA
+ Mean Anom(rad):              1.846585403E+00              M_0
+ mean motion diff(r/s):       4.881631988E-09              DELTA_N
+ Rate of inclin (r/s):       -1.617924544E-10              I_DOT
+ lat cosine ampl (r):         1.143664122E-06              CUC
+ Lat sine ampl   (r):         1.349672675E-05              CUS
+ radius cos ampl (m):         1.082812500E+02              CRC
+ radius sin ampl (m):         2.121875000E+01              CRS
+ inclin cos ampl(r):         -3.576278687E-07              CIC
+ inclin sin ampl(r):         -3.911554813E-08              CIS
+ week:                         114
+ t_gd:                       -3.725290298E-09              T_GD
+ t_oc:                        2.519840000E+05              T_OC
+ Af0(s):                      3.745281138E-04              af0
+ Af1(s/s):                    4.092726158E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-23 ************
+ ID:                         23
+ Eccentricity:                1.571220078E-02              e
+ Time of Applicability(s):    2.231840000E+05              TOE
+ Orbital Inclination(rad):    9.824921759E-01              I_0
+ Rate of Right Ascen(r/s):   -7.681391523E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153386066E+03              SQRT_A
+ Right Ascen at TOA(rad):    -6.218370435E-02              OMEGA_0
+ Argument of Perigee(rad):   -1.810894670E+00              OMEGA
+ Mean Anom(rad):             -1.237506784E+00              M_0
+ mean motion diff(r/s):       3.842659968E-09              DELTA_N
+ Rate of inclin (r/s):        1.739358241E-10              I_DOT
+ lat cosine ampl (r):         2.570450306E-07              CUC
+ Lat sine ampl   (r):         1.172721386E-05              CUS
+ radius cos ampl (m):         1.669062500E+02              CRC
+ radius sin ampl (m):         1.875000000E-01              CRS
+ inclin cos ampl(r):          2.235174179E-08              CIC
+ inclin sin ampl(r):          3.818422556E-07              CIS
+ week:                         114
+ t_gd:                       -2.793967724E-09              T_GD
+ t_oc:                        2.231840000E+05              T_OC
+ Af0(s):                      2.264278010E-05              af0
+ Af1(s/s):                    5.684341886E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-24 ************
+ ID:                         24
+ Eccentricity:                9.493267164E-03              e
+ Time of Applicability(s):    2.088000000E+05              TOE
+ Orbital Inclination(rad):    9.823342130E-01              I_0
+ Rate of Right Ascen(r/s):   -8.076765035E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153609587E+03              SQRT_A
+ Right Ascen at TOA(rad):    -1.117833625E+00              OMEGA_0
+ Argument of Perigee(rad):   -1.612531530E+00              OMEGA
+ Mean Anom(rad):             -1.221019194E+00              M_0
+ mean motion diff(r/s):       4.250177099E-09              DELTA_N
+ Rate of inclin (r/s):       -4.110885521E-10              I_DOT
+ lat cosine ampl (r):        -3.989785910E-06              CUC
+ Lat sine ampl   (r):         6.480142474E-06              CUS
+ radius cos ampl (m):         2.677812500E+02              CRC
+ radius sin ampl (m):        -7.987500000E+01              CRS
+ inclin cos ampl(r):         -1.564621925E-07              CIC
+ inclin sin ampl(r):          2.067536116E-07              CIS
+ week:                         114
+ t_gd:                       -9.313225746E-10              T_GD
+ t_oc:                        2.088000000E+05              T_OC
+ Af0(s):                      2.707820386E-06              af0
+ Af1(s/s):                    2.614797268E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-25 ************
+ ID:                         25
+ Eccentricity:                9.082583478E-03              e
+ Time of Applicability(s):    2.447840000E+05              TOE
+ Orbital Inclination(rad):    9.378174066E-01              I_0
+ Rate of Right Ascen(r/s):   -8.499997151E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153813112E+03              SQRT_A
+ Right Ascen at TOA(rad):     1.914389747E+00              OMEGA_0
+ Argument of Perigee(rad):   -1.933278524E+00              OMEGA
+ Mean Anom(rad):             -1.521178828E+00              M_0
+ mean motion diff(r/s):       5.430226491E-09              DELTA_N
+ Rate of inclin (r/s):       -4.621621141E-10              I_DOT
+ lat cosine ampl (r):        -2.872198820E-06              CUC
+ Lat sine ampl   (r):         5.554407835E-06              CUS
+ radius cos ampl (m):         2.592187500E+02              CRC
+ radius sin ampl (m):        -5.818750000E+01              CRS
+ inclin cos ampl(r):          2.030283213E-07              CIC
+ inclin sin ampl(r):          1.545995474E-07              CIS
+ week:                         114
+ t_gd:                       -7.450580597E-09              T_GD
+ t_oc:                        2.447840000E+05              T_OC
+ Af0(s):                      1.899711788E-05              af0
+ Af1(s/s):                    3.410605132E-13              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-26 ************
+ ID:                         26
+ Eccentricity:                1.310051419E-02              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.689440711E-01              I_0
+ Rate of Right Ascen(r/s):   -7.990332840E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153742151E+03              SQRT_A
+ Right Ascen at TOA(rad):     9.380494020E-01              OMEGA_0
+ Argument of Perigee(rad):    3.002349159E-01              OMEGA
+ Mean Anom(rad):              2.661600457E+00              M_0
+ mean motion diff(r/s):       4.555904098E-09              DELTA_N
+ Rate of inclin (r/s):        5.103784062E-10              I_DOT
+ lat cosine ampl (r):         2.771615982E-06              CUC
+ Lat sine ampl   (r):         6.049871445E-06              CUS
+ radius cos ampl (m):         2.682500000E+02              CRC
+ radius sin ampl (m):         5.396875000E+01              CRS
+ inclin cos ampl(r):         -2.328306437E-07              CIC
+ inclin sin ampl(r):         -9.126961231E-08              CIS
+ week:                         114
+ t_gd:                       -6.519258022E-09              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                      3.894791007E-06              af0
+ Af1(s/s):                   -2.046363079E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-27 ************
+ ID:                         27
+ Eccentricity:                1.542832132E-02              e
+ Time of Applicability(s):    2.663840000E+05              TOE
+ Orbital Inclination(rad):    9.423404977E-01              I_0
+ Rate of Right Ascen(r/s):   -8.743578306E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153652340E+03              SQRT_A
+ Right Ascen at TOA(rad):     1.937995326E+00              OMEGA_0
+ Argument of Perigee(rad):   -2.531381925E+00              OMEGA
+ Mean Anom(rad):              1.622816708E-01              M_0
+ mean motion diff(r/s):       5.368438138E-09              DELTA_N
+ Rate of inclin (r/s):       -4.593048719E-10              I_DOT
+ lat cosine ampl (r):        -2.626329660E-06              CUC
+ Lat sine ampl   (r):         5.692243576E-06              CUS
+ radius cos ampl (m):         2.599687500E+02              CRC
+ radius sin ampl (m):        -5.203125000E+01              CRS
+ inclin cos ampl(r):          9.499490261E-08              CIC
+ inclin sin ampl(r):          2.719461918E-07              CIS
+ week:                         114
+ t_gd:                       -4.190951586E-09              T_GD
+ t_oc:                        2.663840000E+05              T_OC
+ Af0(s):                      5.634501576E-07              af0
+ Af1(s/s):                    1.364242053E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-28 ************
+ ID:                         28
+ Eccentricity:                5.633295863E-03              e
+ Time of Applicability(s):    2.664000000E+05              TOE
+ Orbital Inclination(rad):    9.599824515E-01              I_0
+ Rate of Right Ascen(r/s):   -7.762823273E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153679804E+03              SQRT_A
+ Right Ascen at TOA(rad):     3.028747129E+00              OMEGA_0
+ Argument of Perigee(rad):   -2.477343554E+00              OMEGA
+ Mean Anom(rad):             -1.465952726E+00              M_0
+ mean motion diff(r/s):       4.199460779E-09              DELTA_N
+ Rate of inclin (r/s):       -2.607251567E-11              I_DOT
+ lat cosine ampl (r):         1.961365342E-06              CUC
+ Lat sine ampl   (r):         1.294724643E-05              CUS
+ radius cos ampl (m):         1.283437500E+02              CRC
+ radius sin ampl (m):         3.837500000E+01              CRS
+ inclin cos ampl(r):          1.080334187E-07              CIC
+ inclin sin ampl(r):         -4.842877388E-08              CIS
+ week:                         114
+ t_gd:                       -1.024454832E-08              T_GD
+ t_oc:                        2.664000000E+05              T_OC
+ Af0(s):                     -3.311410546E-05              af0
+ Af1(s/s):                   -3.524291969E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-29 ************
+ ID:                         29
+ Eccentricity:                8.524534642E-03              e
+ Time of Applicability(s):    2.448000000E+05              TOE
+ Orbital Inclination(rad):    9.658486403E-01              I_0
+ Rate of Right Ascen(r/s):   -8.386063399E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153902538E+03              SQRT_A
+ Right Ascen at TOA(rad):     9.086652149E-01              OMEGA_0
+ Argument of Perigee(rad):   -1.865732951E+00              OMEGA
+ Mean Anom(rad):             -5.833965259E-01              M_0
+ mean motion diff(r/s):       4.838415890E-09              DELTA_N
+ Rate of inclin (r/s):        4.535903320E-10              I_DOT
+ lat cosine ampl (r):         2.574175596E-06              CUC
+ Lat sine ampl   (r):         5.923211575E-06              CUS
+ radius cos ampl (m):         2.696875000E+02              CRC
+ radius sin ampl (m):         4.803125000E+01              CRS
+ inclin cos ampl(r):         -1.229345798E-07              CIC
+ inclin sin ampl(r):          6.519258022E-08              CIS
+ week:                         114
+ t_gd:                       -6.984919310E-09              T_GD
+ t_oc:                        2.448000000E+05              T_OC
+ Af0(s):                      6.166300736E-04              af0
+ Af1(s/s):                   -5.002220860E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-30 ************
+ ID:                         30
+ Eccentricity:                5.979909562E-03              e
+ Time of Applicability(s):    2.376000000E+05              TOE
+ Orbital Inclination(rad):    9.434635828E-01              I_0
+ Rate of Right Ascen(r/s):   -8.135339513E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153644453E+03              SQRT_A
+ Right Ascen at TOA(rad):     3.004265947E+00              OMEGA_0
+ Argument of Perigee(rad):    1.344031515E+00              OMEGA
+ Mean Anom(rad):              6.781550695E-01              M_0
+ mean motion diff(r/s):       4.608406545E-09              DELTA_N
+ Rate of inclin (r/s):       -9.000375445E-11              I_DOT
+ lat cosine ampl (r):         1.691281796E-06              CUC
+ Lat sine ampl   (r):         1.281686127E-05              CUS
+ radius cos ampl (m):         1.222187500E+02              CRC
+ radius sin ampl (m):         3.181250000E+01              CRS
+ inclin cos ampl(r):         -6.891787052E-08              CIC
+ inclin sin ampl(r):          1.862645149E-09              CIS
+ week:                         114
+ t_gd:                       -7.450580597E-09              T_GD
+ t_oc:                        2.376000000E+05              T_OC
+ Af0(s):                      1.263958402E-04              af0
+ Af1(s/s):                    2.012257028E-11              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+
+ **** Week    114 ephemeris for SV-31 ************
+ ID:                         31
+ Eccentricity:                1.041950705E-02              e
+ Time of Applicability(s):    2.591840000E+05              TOE
+ Orbital Inclination(rad):    9.440435743E-01              I_0
+ Rate of Right Ascen(r/s):   -8.773937132E-09              OMEGA_DOT
+ SQRT(A) (m^1/2):             5.153693521E+03              SQRT_A
+ Right Ascen at TOA(rad):    -2.240676269E+00              OMEGA_0
+ Argument of Perigee(rad):    8.665230215E-01              OMEGA
+ Mean Anom(rad):              1.009846323E+00              M_0
+ mean motion diff(r/s):       5.259504832E-09              DELTA_N
+ Rate of inclin (r/s):        2.446530478E-10              I_DOT
+ lat cosine ampl (r):         4.880130291E-06              CUC
+ Lat sine ampl   (r):         4.392117262E-06              CUS
+ radius cos ampl (m):         2.870312500E+02              CRC
+ radius sin ampl (m):         8.996875000E+01              CRS
+ inclin cos ampl(r):         -9.126961231E-08              CIC
+ inclin sin ampl(r):          6.146728992E-08              CIS
+ week:                         114
+ t_gd:                       -5.587935448E-09              T_GD
+ t_oc:                        2.591840000E+05              T_OC
+ Af0(s):                      7.241126150E-05              af0
+ Af1(s/s):                    2.273736754E-12              af1
+ Af2(s/s/s):                  0.000000000E+00              af2
+-999

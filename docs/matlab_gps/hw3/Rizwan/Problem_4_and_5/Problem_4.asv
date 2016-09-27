@@ -1,0 +1,176 @@
+% AAE 575. HW 3. Rizwan Qureshi.
+% PROBLEM 4:
+
+clear all; clc; close all;
+
+load DH010600.mat;
+
+data_used_in_models = DH010600;
+
+GPS_t1 = data_used_in_models(:,6);   % [secs]
+
+P0 = data_used_in_models(:,7);   % surface atmospheric pressure [mbar]
+T0_C = data_used_in_models(:,8);   % Surface atmospheric temperature. [Celcius]
+T0_K = T0_C + 273.15;               %  Surface atmospheric temperature. [Kelvin]
+RH = data_used_in_models(:,9)/100;     %Relative humidity converted into decimals
+
+phi = 33.390;     % [Deg]
+
+phi_array = [ones(1,144)*phi]';    % [Deg]
+
+%Compute water vapor e0:
+e0 = 6.108*RH.*exp((17.15*T0_K-4684)./(T0_K-38.5));    % [mbar]
+
+%Compute Sasstamoinen Model DRY and WET Zeneith Delay:
+
+Dry_delay_S_model = 0.0022777*(1+0.0026*cosd(2*phi_array)).*P0;     % [meters] 
+Wet_delay_S_model = 0.0022777*(1255./T0_K + 0.05).*e0;    %[ meters]
+
+% Now compute Hopfield Model DRY and WET Zeneith Delays:
+
+hd = 40136 + 148.72*(T0_K - 273.16);   % [meters]
+hw = 11000;        % [meters]
+
+Dry_delay_H_model = (77.64e-6*P0.*hd)./(5*T0_K);    % [meters]
+Wet_delay_H_model = (0.373*e0*hw)./(5*(T0_K.^2));    % [meters]
+
+
+%%%%%%%%%%%% Problem 5 %%%%%%%%%%%%%%%%%%%%
+
+
+%% simple flat-Earth mapping functions and TOTAL delay for S and H models:
+
+El = [5 15 45 85]';
+ 
+md = 1./(sind(El));
+mw = 1./(sind(El));
+
+n = 1;
+while n<=4
+Total_delay_Flat_Earth_S_model(:,n) = md(n)* Dry_delay_S_model + mw(n)*Wet_delay_S_model;
+Total_delay_Flat_Earth_H_model(:,n) = md(n)* Dry_delay_H_model + mw(n)*Wet_delay_H_model;
+
+n = n+1;
+end
+    
+%% Mapping functions given in Misra & Enge & TOTAL delay for S & H models:
+
+md_m = 1./sqrt(1-((cosd(El)./1.001)).^2);
+mw_m = 1./sqrt(1-((cosd(El)./1.001)).^2);
+
+n = 1;
+while n<=4
+Total_delay_Misra_S_model(:,n) = md_m(n)* Dry_delay_S_model + mw_m(n)*Wet_delay_S_model;
+Total_delay_Misra_H_model(:,n) = md_m(n)* Dry_delay_H_model + mw_m(n)*Wet_delay_H_model;
+
+n = n+1;
+end
+
+
+%% Mapping functions given by Chao & TOTAL delay for S & H models:
+
+md_c = 1./[sind(El) +(0.00143./(tand(El)+0.0445));
+mw_c = 1./sqrt(1-((cosd(El)./1.001)).^2);
+
+n = 1;
+while n<=4
+Total_delay_Chao_S_model(:,n) = md_c(n)* Dry_delay_S_model + mw_c(n)*Wet_delay_S_model;
+Total_delay_Chao_H_model(:,n) = md_c(n)* Dry_delay_H_model + mw_c(n)*Wet_delay_H_model;
+
+
+n = n+1;
+end
+    
+%%%%%%%%%%%% Problem 5 %%%%%%%%%%%%%%%%%%%%
+% w = 1;
+% %Elevation angle  [Deg]
+% for El = [5 15 45 85];    
+% 
+% %simple flat-Earth mapping function:
+% 
+% md(:,w) = 1./(sind(El));
+% mw(:,w) = 1./(sind(El));
+% 
+% Total_delay_FE_S_model(:,w) = md(:,w)* Dry_delay_S_model + mw(:,w)*Wet_delay_S_model;
+% Total_delay_FE_H_model(:,w) = md(:,w)* Dry_delay_H_model + mw(:,w)*Wet_delay_H_model;
+% 
+% Total_delay_Flat_Earth_SISS(:,w) = Total_delay_FE_S_model(:,w);
+% Total_delay_Flat_Earth_HOPFILED(:,w) = Total_delay_FE_H_model(:,w);
+% 
+% end
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Problem 2  %%%%%%%%%%%%%%%%%%%%%
+% 
+% c = 299792458;  % speed of light in [m/sec]
+% f_L1 = 1575.42e06;
+% f_L2 = 1227.60e06;
+% 
+% A = [(f_L1^2*f_L2^2)/(f_L2^2-f_L1^2)]*[L1_P_range - L2_P_range]; % [m/sec^2]
+% 
+% Dual_freq_delay = [1/(c*f_L1^2)]*A;   % [sec]
+% 
+% figure(2)
+% plot(t/3600,Dual_freq_delay)
+% xlabel('Apparent local time (Hours)')
+% ylabel('Delay due to Ionosphere (Seconds)')
+% 
+% 
+% 
+% % phi_star_L1 = f1^2/(f1^2-f2^2)*phi_L1 - f1*f2/(f1^2-f2^2)*phi_L2
+% % 
+% % or
+% % 
+% % phi_star_L1 = 2.5457*phi_L1 - 1.9837*phi_L2; 
+% 
+% 
+% %Compute True Geometric range (r(t)):
+% 
+% % r_true = sqrt([(ones(1,101)'*x_R - x_s).^2 + (ones(1,101)'*y_R - y_s).^2 + (ones(1,101)'*z_R - z_s).^2]) ;
+% % 
+% % rho_star = 2.546*L1_P_range - 1.546*L2_P_range;
+% 
+% 
+% % 
+% % figure(1)
+% % plot(GPS_t1,r_true,'r')
+% % hold on
+% % plot(GPS_t1,rho_star)
+% % xlabel('GPS Time (seconds)')
+% % ylabel('Range (meters)')
+% % legend('True Geometric range', 'Ionosphere free Pseudorange')
+% % 
+% % c = 299792458;  % speed of light in [m/sec]
+% % 
+% % lamda1 = c/(1575.42e06);
+% % lamda2 = c/(1227.60e06);
+% % 
+% % carrier_phase_true_range = ((lamda1/(2*pi))* L1_C_phase) +  ((lamda2/(2*pi))* L2_C_phase);
+% % phi_star = [2.5457*(lamda1/(2*pi))* L1_C_phase] - [1.9837*(lamda2/(2*pi))* L2_C_phase];
+% % 
+% % figure(2)
+% % plot(GPS_t1,carrier_phase_true_range,'r')
+% % hold on
+% % plot(GPS_t1,phi_star)
+% % xlabel('GPS Time (seconds)')
+% % ylabel('Range (meters)')
+% % legend('True carrier phase range', 'Ionosphere free carrier phase')
+% % 
+% % 
+% % % best_fit = 0.038427*(GPS_t1).^2 -5474.8*GPS_t1 + 2.1515e+008 ;
+% % % best_fit = 2.4078e-006*(GPS_t1).^3 -0.4446*(GPS_t1).^2 + 26822*(GPS_t1) -5.046e+008
+% % 
+% % % % Coefficients:
+% % %   p1 = -9.4509e-015;
+% % %   p2 = 3.133e-009;
+% % %   p3 = -0.00041297;
+% % %   p4 = 27.088;
+% % %   p5 = -8.8551e+005;
+% % %   p6 = 1.1586e+010;
+% % %   
+% % % best_fit =  -9.4509e-015*((GPS_t1).^5) + 3.133e-009*((GPS_t1).^4) + -0.00041297*((GPS_t1).^3) +  27.088*((GPS_t1).^2) + -8.8551e+005*((GPS_t1)) + 1.1586e+010;
+% % % 
+% % % figure(3)
+% % % plot(GPS_t1,r_true,'r')
+% % % hold on
+% % % plot(GPS_t1,best_fit)

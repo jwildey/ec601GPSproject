@@ -1,0 +1,51 @@
+clear
+clc
+
+load prob1
+digits(10);
+f1=1575.42e6;
+f2=1227.6e6;
+c=3e8;
+
+%part 1: Calculate ionosphere free pseudorange Pio=PL1-(fL2^2/fL1^2)*PL2
+
+A=((1227.6e6^2).*(1575.42e6^2)./(1227.6e6^2-1575.42e6^2)).*(L1_pseudo-L2_pseudo);
+rho_star=.5*(L1_pseudo+L2_pseudo-(A./1575.42e6^2)-(A./1227.6e6^2));
+
+%Calculate ionosphere free phase using L1
+phi_star1=((f1^2/(f1^2-f2^2)).*L1_phase)-((f1*f2)/(f1^2-f2^2)).*L2_phase;
+phi_star2=(((f1*f2)/(f1^2-f2^2)).*L1_phase)-((f2^2/(f1^2-f2^2)).*L2_phase);
+phi_rrate=(c/f1).*diff(phi_star1);
+%true range
+true_range=sqrt((-1288337.0539-Sat_X).^2+(-4721990.4483-Sat_Y).^2+(4078321.6617-Sat_Z).^2);
+true_rangerate=diff(true_range);
+
+%Doppler calculation of carrier pseudorange
+L1_doppler=-diff(phi_star1);
+L2_doppler=-diff(phi_star2);
+doppler_scale=L1_doppler./L2_doppler;
+doppler_rrate=-(1/c).*diff(rho_star);
+
+%Frequency bias of L1 and L2
+L1_fb=L1_doppler+(true_rangerate/1575.42e6);
+L2_fb=L2_doppler+(true_rangerate/1227.6e6);
+%Line of sight velocity for frequency bias
+L1_vsight=L1_fb/1575.42e6;
+L2_vsight=L2_fb/1227.6e6;
+
+%receiver clock bias
+tbias_receiver_rho=rho_star-true_range;
+%using L1 phi* for clock bias
+tbias_receiver_phi=(phi_star1-(true_range/(3e8/f1))/3e8);
+
+%%%%nissa
+% % Frequency bias for L1 and L2
+% fbias_L1=doppler_L1+(R_rate/fL1);
+% fbias_L2=doppler_L2+(R_rate/fL2);
+% 
+% %Line of sight velocity for frequency bias L1 and L2
+% sight_L1=fbias_L1/fL1;
+% sight_L2=fbias_L2/fL2;
+
+
+

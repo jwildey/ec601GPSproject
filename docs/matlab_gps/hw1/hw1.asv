@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Homework 1
+%  9/23/2011
+%  AAE57500
+%  Josh Wildey
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Problem 1
+% Choose PRN 22 & 27
+sv = [22 27];
+ca = cacodegen(sv);
+
+% Problem 2
+% Auto correlation of PRN 22 for -10 chips <= t <= 10 chips
+
+
+% Auto correlation of PRN 27 for -10 chips <= t <= 10 chips
+
+
+% Cross correlation between PRN 22 & PRN 27 for -10 chips <= t <= 10 chips
