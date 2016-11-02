@@ -1,0 +1,34 @@
+/**
+ *  Celestial Object Sighting System
+ *  Main Code Entry Point
+ *  Document No.:
+ *
+ *  \file       coss.c
+ *  \brief      This modules contains the main entry point for the software
+ *  \author     Onno Hommes
+ *
+ *  This module contains the main entry point for the Celestial Object Sighting
+ *  System (COSS).
+ *
+ *  Copyright Charles Stark Draper Laboratory
+ *
+ *  $Id$
+ */
+
+
+
+#include "coss_types.h"
+#include "coss_cfg.h"
+#include "rms/scheduler.h"
+
+int main(int argc, char** argv)
+{
+
+	CfgLoad();
+	RmsSchedulerInit();
+
+	/* Loop Forever */
+	RmsSchedulerRun();
+
+	return 0;
+}

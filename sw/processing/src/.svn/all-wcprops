@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/coss/!svn/ver/8/trunk/sw/src
+END
+coss.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/coss/!svn/ver/6/trunk/sw/src/coss.cfg
+END
+coss_cfg.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/coss/!svn/ver/6/trunk/sw/src/coss_cfg.c
+END
+coss_cfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/coss/!svn/ver/6/trunk/sw/src/coss_cfg.h
+END
+coss_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/coss/!svn/ver/8/trunk/sw/src/coss_main.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/coss/!svn/ver/6/trunk/sw/src/makefile
+END

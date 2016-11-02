@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/coss/!svn/ver/8/trunk/sw/mk
+END
+build.mk
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/coss/!svn/ver/6/trunk/sw/mk/build.mk
+END
+toolchain.mk
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/coss/!svn/ver/8/trunk/sw/mk/toolchain.mk
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/coss/!svn/ver/6/trunk/sw/mk/config.mk
+END
+version.mk
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/coss/!svn/ver/4/trunk/sw/mk/version.mk
+END
+lint.mk
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/coss/!svn/ver/6/trunk/sw/mk/lint.mk
+END

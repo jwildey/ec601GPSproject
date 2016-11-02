@@ -1,0 +1,4 @@
+
+include $(COSS_ROOT)/mk/toolchain.mk
+include $(COSS_ROOT)/mk/build.mk
+include $(COSS_ROOT)/mk/version.mk

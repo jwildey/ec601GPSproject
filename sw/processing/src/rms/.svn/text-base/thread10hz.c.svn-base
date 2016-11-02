@@ -1,0 +1,27 @@
+/**
+ *  Celestial Object Sighting System
+ *  Main Code Entry Point
+ *  Document No.:
+ *
+ *  \file       thread30hz.c
+ *  \brief      This modules contains the 10hz thread behavior
+ *  \author     Onno Hommes
+ *
+ *  This module setups the 10Hz execution thread (COSS).
+ *
+ *  Copyright Charles Stark Draper Laboratory
+ *
+ *  $Id$
+ */
+
+#include <pthread.h>
+
+void RmsThread10Hz_Func(void)
+{
+
+}
+
+void RmsThread10Hz_Init(void)
+{
+
+}

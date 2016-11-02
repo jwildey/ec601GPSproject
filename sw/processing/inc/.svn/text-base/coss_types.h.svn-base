@@ -1,0 +1,25 @@
+/**
+ *  Celestial Object Sighting System
+ *  The COSS basic type definitions
+ *  Document No.:
+ *
+ *  \file       coss_types.h
+ *  \brief      The 120hz thread definitions
+ *  \author     Onno Hommes
+ *
+ *  The definitions for the 120Hz rate group thread.
+ *
+ *  Copyright Charles Stark Draper Laboratory
+ *
+ *  $Id$
+ */
+
+#ifndef COSS_TYPES_H_
+#define COSS_TYPES_H_
+
+#ifndef STATIC
+/** Use STATIC to allow unit tests to create stubs and access them as globals */
+#define STATIC     static
+#endif
+
+#endif /* COSS_TYPES_H_ */

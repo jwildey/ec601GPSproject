@@ -1,0 +1,5 @@
+export INCS= -I$(COSS_ROOT)/inc
+export OBJS_PATH=$(COSS_ROOT)/obj/$(MACHINE)/
+export LIBS_PATH=$(COSS_ROOT)/lib/$(MACHINE)/
+export BINS_PATH=$(COSS_ROOT)/bin/$(MACHINE)/
+export COSS_DIRS= $(OBJS_PATH) $(LIBS_PATH) $(BINS_PATH)
