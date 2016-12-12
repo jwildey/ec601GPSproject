@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Nov 21 18:49:10 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : my_first_fpga
+Top-level Entity Name : my_first_fpga
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 31 / 149,760 ( < 1 % )
+    Total combinational functions : 31 / 149,760 ( < 1 % )
+    Dedicated logic registers : 27 / 149,760 ( < 1 % )
+Total registers : 27
+Total pins : 6 / 508 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 0 / 6,635,520 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 1 / 8 ( 13 % )

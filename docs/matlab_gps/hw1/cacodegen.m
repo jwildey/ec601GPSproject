@@ -56,15 +56,15 @@ ph_sel = [2 6;
 s = [0 0 1 0 0 0 0 0 0 1];
 n = length(s);
 g1 = ones(1,n);
-
+ 
 %G2 LFSR: 1 + x^2 + x^3 + x^6 + x^8 + x^9 + x^10
 t = [0 1 1 0 0 1 0 1 1 1];
 g2 = ones(1,n);
-
+ 
 %Define variables for homework
 chips = 2^n - 1;
 ca = zeros(2,chips);
-
+ 
 %Generate 1023 Chip long C/A Code
 for cnt = 1:chips
     %G1 is the 10th bit
@@ -81,8 +81,4 @@ for cnt = 1:chips
     %Shift G2 left by 1 and XOR chips 2,3,6,8,9,10
     g2 = [mod(sum(g2.*t),2) g2(1:9)];
 end
-    
-
-
-
 

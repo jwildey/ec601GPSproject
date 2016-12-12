@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Fri May 24 18:29:13 2013
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : My_First_NiosII
+Top-level Entity Name : My_First_NiosII
+Family : Cyclone IV GX
+Total logic elements : 3,809
+    Total combinational functions : 3,205
+    Dedicated logic registers : 2,143
+Total registers : 2143
+Total pins : 58
+Total virtual pins : 0
+Total memory bits : 1,703,680
+Embedded Multiplier 9-bit elements : 4
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

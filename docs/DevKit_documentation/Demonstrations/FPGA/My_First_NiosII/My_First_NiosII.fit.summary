@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri May 24 18:30:09 2013
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : My_First_NiosII
+Top-level Entity Name : My_First_NiosII
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 3,555 / 149,760 ( 2 % )
+    Total combinational functions : 3,210 / 149,760 ( 2 % )
+    Dedicated logic registers : 2,101 / 149,760 ( 1 % )
+Total registers : 2101
+Total pins : 58 / 508 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 1,703,680 / 6,635,520 ( 26 % )
+Embedded Multiplier 9-bit elements : 4 / 720 ( < 1 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )

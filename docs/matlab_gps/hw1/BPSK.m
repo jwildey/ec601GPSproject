@@ -9,7 +9,7 @@ function bpsk = BPSK(cacode)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 bpsk = zeros(size(cacode));
-
+ 
 for i = 1:length(cacode)
     %For First row
     if cacode(1,i) == 0

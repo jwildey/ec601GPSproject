@@ -1,0 +1,133 @@
+!SESSION 2012-08-17 11:58:04.687 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data D:\My_First_NiosII\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-08-17 12:04:56.734
+!MESSAGE Indexed 'My_First_NiosII_bsp' (78 sources, 57 headers) in 1.38 sec: 927 declarations; 2,240 references; 113 unresolved inclusions; 5 syntax errors; 193 unresolved names (5.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-08-17 12:05:03.375
+!MESSAGE Indexed 'My_First_NiosII' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-08-17 16:14:41.156 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data D:\My_First_NiosII\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:20:51.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:20:55.937
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x81018] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:20:56.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:21:01.515
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x81018, /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:21:01.515
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:21:22.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:21:26.484
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x81018] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:21:27.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:21:31.875
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x81018, /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:21:31.890
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:22:09.093
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:22:12.875
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x81018] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:22:13.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:22:18.140
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x81018, /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:22:18.140
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:23:43.328
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:23:47.093
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x81018] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:23:48.093
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:23:52.500
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x81018, /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:23:52.500
+!MESSAGE Downloading ELF Process failed
+!SESSION 2012-08-17 16:28:41.406 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:30:00.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:30:04.250
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x81018] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:30:05.093
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:30:09.500
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x81018, /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-08-17 16:30:09.500
+!MESSAGE Downloading ELF Process failed
+!SESSION 2012-08-17 16:36:13.906 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:37:09.062
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:37:12.906
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:45:39.593
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:45:43.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:45:47.593
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:46:05.750
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:46:09.250
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81018]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-08-17 16:46:12.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/12.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81018 /cygdrive/d/My_First_NiosII/software/My_First_NiosII/My_First_NiosII.elf]

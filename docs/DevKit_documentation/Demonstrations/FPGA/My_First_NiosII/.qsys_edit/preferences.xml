@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="159" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="282" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="333" />
+   <clocksource preferredWidth="332" />
+   <frequency preferredWidth="317" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Qsys Interconnect/Tri-State Components,Library,Project,Library/Qsys Interconnect" />
+ <window width="1358" height="803" x="90" y="22" />
+ <hdlexample language="VERILOG" />
+</preferences>
