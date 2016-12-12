@@ -1,0 +1,23 @@
+/**
+ *  Celestial Object Sighting System
+ *  Rate Monotonic Scheduler CSC
+ *  Document No.:
+ *
+ *  \file       scheduler.c
+ *  \brief      This modules contains the COSS scheduler definitions.
+ *  \author     Onno Hommes
+ *
+ *  This modules contains the COSS scheduler definitions
+ *
+ *  Copyright Charles Stark Draper Laboratory
+ *
+ *  $Id$
+ */
+
+#ifndef SCHEDULER_H_
+#define SCHEDULER_H_
+
+extern void RmsSchedulerInit(void);
+extern void RmsSchedulerRun(void);
+
+#endif /* SCHEDULER_H_ */

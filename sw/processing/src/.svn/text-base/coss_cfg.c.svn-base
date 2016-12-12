@@ -1,0 +1,46 @@
+/*
+ * coss_cfg.c
+ *
+ *  Created on: Dec 11, 2014
+ *      Author: orv2338
+ */
+
+#include <stdlib.h>
+#include <libconfig.h>
+#include <string.h>
+
+#include "coss_types.h"
+
+/** The device configuration settings */
+STATIC config_t cfg;
+
+STATIC void CfgLoadInterfaces(void)
+{
+
+}
+
+STATIC void CfgLoadApplication(void)
+{
+
+}
+
+
+void CfgLoad(void)
+{
+	   int err_line;
+	   config_init(&cfg);
+
+	   /* Read the configuration file. If there is an error, report it */
+	   if (config_read_file(&cfg, "coss.cfg") == CONFIG_TRUE)
+	   {
+	      CfgLoadInterfaces();
+	      CfgLoadApplication();
+	   }
+	   else
+	   {
+	      err_line = config_error_line(&cfg);
+	      fprintf(stderr, "hardware.cfg:%d - %s\n", err_line,
+	            config_error_text(&cfg));
+	   }
+
+}

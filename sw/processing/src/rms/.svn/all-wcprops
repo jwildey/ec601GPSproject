@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms
+END
+scheduler.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/scheduler.c
+END
+thread1000hz.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread1000hz.h
+END
+thread100hz.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread100hz.h
+END
+thread10hz.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread10hz.h
+END
+thread1hz.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread1hz.h
+END
+scheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/coss/!svn/ver/7/trunk/sw/src/rms/scheduler.h
+END
+thread1000hz.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread1000hz.c
+END
+thread100hz.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread100hz.c
+END
+thread10hz.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread10hz.c
+END
+thread1hz.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/thread1hz.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/coss/!svn/ver/8/trunk/sw/src/rms/makefile
+END

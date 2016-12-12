@@ -1,0 +1,22 @@
+/**
+ *  Celestial Object Sighting System
+ *  Main Code Entry Point
+ *  Document No.:
+ *
+ *  \file       thread100hz.h
+ *  \brief      The 100hz thread definitions
+ *  \author     Onno Hommes
+ *
+ *  The definitions for this rate group thread.
+ *
+ *  Copyright Charles Stark Draper Laboratory
+ *
+ *  $Id$
+ */
+#ifndef Thread100HZ_H_
+#define Thread100HZ_H_
+
+extern void RmsThread100Hz_Func(void);
+extern void RmsThread100Hz_Init(void);
+
+#endif /* TASK_120HZ_H_ */

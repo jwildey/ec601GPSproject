@@ -1,0 +1,13 @@
+/*
+ * coss_cfg.h
+ *
+ *  Created on: Dec 11, 2014
+ *      Author: orv2338
+ */
+
+#ifndef COSS_CFG_H_
+#define COSS_CFG_H_
+
+extern void CfgLoad(void);
+
+#endif /* COSS_CFG_H_ */
