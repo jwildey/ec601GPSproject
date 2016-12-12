@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED_GREEN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[15]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED[17]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BTNS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BTNS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BTNS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BTNS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCHES[1]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

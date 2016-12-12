@@ -1,0 +1,12 @@
+INTENDED_DEVICE_FAMILY="Cyclone IV GX"
+INVERT_INPUT_CLOCKS=OFF
+LPM_HINT=UNUSED
+LPM_TYPE=altddio_in
+WIDTH=1
+DEVICE_FAMILY="Cyclone IV GX"
+CBX_AUTO_BLACKBOX=ALL
+aclr
+datain
+dataout_h
+dataout_l
+inclock

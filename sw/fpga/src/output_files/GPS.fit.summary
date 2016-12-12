@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sun Dec 11 16:53:01 2016
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : GPS
+Top-level Entity Name : GPS
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 3,628 / 149,760 ( 2 % )
+    Total combinational functions : 3,227 / 149,760 ( 2 % )
+    Dedicated logic registers : 2,072 / 149,760 ( 1 % )
+Total registers : 2072
+Total pins : 49 / 508 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 1,702,336 / 6,635,520 ( 26 % )
+Embedded Multiplier 9-bit elements : 6 / 720 ( < 1 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )

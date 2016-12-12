@@ -1,0 +1,154 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\school\ec601GPSproject\sw\fpga\src\nios_cpu.qsys --block-symbol-file --output-directory=C:\school\ec601GPSproject\sw\fpga\src\nios_cpu --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading src/nios_cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 16.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 16.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_green [altera_avalon_pio 16.1]
+Progress: Parameterizing module led_green
+Progress: Adding led_red [altera_avalon_pio 16.1]
+Progress: Parameterizing module led_red
+Progress: Adding nios_cpu [altera_nios2_gen2 16.1]
+Progress: Parameterizing module nios_cpu
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding push_btns [altera_avalon_pio 16.1]
+Progress: Parameterizing module push_btns
+Progress: Adding switches [altera_avalon_pio 16.1]
+Progress: Parameterizing module switches
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 16.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_cpu.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_cpu.push_btns: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_cpu.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_cpu.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_cpu.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: nios_cpu.push_btns: push_btns.s1 must be connected to an Avalon-MM master
+Warning: nios_cpu.switches: switches.s1 must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\school\ec601GPSproject\sw\fpga\src\nios_cpu.qsys --synthesis=VERILOG --output-directory=C:\school\ec601GPSproject\sw\fpga\src\nios_cpu\synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading src/nios_cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 16.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 16.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_green [altera_avalon_pio 16.1]
+Progress: Parameterizing module led_green
+Progress: Adding led_red [altera_avalon_pio 16.1]
+Progress: Parameterizing module led_red
+Progress: Adding nios_cpu [altera_nios2_gen2 16.1]
+Progress: Parameterizing module nios_cpu
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding push_btns [altera_avalon_pio 16.1]
+Progress: Parameterizing module push_btns
+Progress: Adding switches [altera_avalon_pio 16.1]
+Progress: Parameterizing module switches
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 16.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_cpu.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_cpu.push_btns: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_cpu.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_cpu.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_cpu.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: nios_cpu.push_btns: push_btns.s1 must be connected to an Avalon-MM master
+Warning: nios_cpu.switches: switches.s1 must be connected to an Avalon-MM master
+Info: nios_cpu: Generating nios_cpu "nios_cpu" for QUARTUS_SYNTH
+Info: jtag_uart: Starting RTL generation for module 'nios_cpu_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_cpu_jtag_uart --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0001_jtag_uart_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0001_jtag_uart_gen//nios_cpu_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'nios_cpu_jtag_uart'
+Info: jtag_uart: "nios_cpu" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led_green: Starting RTL generation for module 'nios_cpu_led_green'
+Info: led_green:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_led_green --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0002_led_green_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0002_led_green_gen//nios_cpu_led_green_component_configuration.pl  --do_build_sim=0  ]
+Info: led_green: Done RTL generation for module 'nios_cpu_led_green'
+Info: led_green: "nios_cpu" instantiated altera_avalon_pio "led_green"
+Info: led_red: Starting RTL generation for module 'nios_cpu_led_red'
+Info: led_red:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_led_red --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0003_led_red_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0003_led_red_gen//nios_cpu_led_red_component_configuration.pl  --do_build_sim=0  ]
+Info: led_red: Done RTL generation for module 'nios_cpu_led_red'
+Info: led_red: "nios_cpu" instantiated altera_avalon_pio "led_red"
+Info: nios_cpu: "nios_cpu" instantiated altera_nios2_gen2 "nios_cpu"
+Info: onchip_memory: Starting RTL generation for module 'nios_cpu_onchip_memory'
+Info: onchip_memory:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_cpu_onchip_memory --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0004_onchip_memory_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0004_onchip_memory_gen//nios_cpu_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory: Done RTL generation for module 'nios_cpu_onchip_memory'
+Info: onchip_memory: "nios_cpu" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: push_btns: Starting RTL generation for module 'nios_cpu_push_btns'
+Info: push_btns:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_push_btns --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0005_push_btns_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0005_push_btns_gen//nios_cpu_push_btns_component_configuration.pl  --do_build_sim=0  ]
+Info: push_btns: Done RTL generation for module 'nios_cpu_push_btns'
+Info: push_btns: "nios_cpu" instantiated altera_avalon_pio "push_btns"
+Info: switches: Starting RTL generation for module 'nios_cpu_switches'
+Info: switches:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_switches --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0006_switches_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0006_switches_gen//nios_cpu_switches_component_configuration.pl  --do_build_sim=0  ]
+Info: switches: Done RTL generation for module 'nios_cpu_switches'
+Info: switches: "nios_cpu" instantiated altera_avalon_pio "switches"
+Info: sysid_qsys_0: "nios_cpu" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_cpu" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_cpu" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_cpu" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios_cpu_nios_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA/16.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA/16.1/quartus/bin64//perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga/16.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga/16.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga/16.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga/16.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_cpu_nios_cpu_cpu --dir=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA/16.1/quartus/bin64/ --verilog --config=C:/Users/Josh/AppData/Local/Temp/alt7146_5864994163125139087.dir/0010_cpu_gen//nios_cpu_nios_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2016.12.10 22:31:02 (*) Starting Nios II generation
+Info: cpu: # 2016.12.10 22:31:02 (*)   Checking for plaintext license.
+Info: cpu: # 2016.12.10 22:31:02 (*)   Plaintext license not found.
+Info: cpu: # 2016.12.10 22:31:02 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2016.12.10 22:31:03 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2016.12.10 22:31:03 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.12.10 22:31:03 (*)   Creating all objects for CPU
+Info: cpu: # 2016.12.10 22:31:03 (*)     Testbench
+Info: cpu: # 2016.12.10 22:31:03 (*)     Instruction decoding
+Info: cpu: # 2016.12.10 22:31:03 (*)       Instruction fields
+Info: cpu: # 2016.12.10 22:31:03 (*)       Instruction decodes
+Info: cpu: # 2016.12.10 22:31:04 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2016.12.10 22:31:04 (*)       Instruction controls
+Info: cpu: # 2016.12.10 22:31:04 (*)     Pipeline frontend
+Info: cpu: # 2016.12.10 22:31:04 (*)     Pipeline backend
+Info: cpu: # 2016.12.10 22:31:06 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.12.10 22:31:08 (*)   Creating encrypted RTL
+Info: cpu: # 2016.12.10 22:31:09 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_cpu_nios_cpu_cpu'
+Info: cpu: "nios_cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios_cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios_cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios_cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios_cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: nios_cpu_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios_cpu_data_master_limiter"
+Info: Reusing file C:/school/ec601GPSproject/sw/fpga/src/nios_cpu/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/school/ec601GPSproject/sw/fpga/src/nios_cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/school/ec601GPSproject/sw/fpga/src/nios_cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/school/ec601GPSproject/sw/fpga/src/nios_cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_cpu: Done "nios_cpu" with 33 modules, 53 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,10 @@
+set_global_assignment -name IP_TOOL_NAME "ALTDDIO_IN"
+set_global_assignment -name IP_TOOL_VERSION "16.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV GX}"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "gps_mag_in.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "gps_mag_in.ppf"]
