@@ -11,9 +11,8 @@ and calculate the receivers position base on the satellite navigation data.
 
 TOPOLOGY
 --------
+
 documentation/ This folder contains all documention for the development kit and past projects used for examples
-
 hw/            This folder contains all documentation for the analog ciruitry design
-
 sw/            This folder contains all the source code developed for the project
 
