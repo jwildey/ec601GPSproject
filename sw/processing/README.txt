@@ -6,12 +6,12 @@ This document describes the Software Layout structure for GPS and is based on th
 TOPOLOGY
 --------
 
-sw/src		  This is the top level source folder
-sw/inc	  	This is the top level include folder for all public interfaces
-sw/src/hal	This is the hardware abstraction layer containing the interface drivers
-sw/src/dev	This is the device abstraction layer containing the device abstractions
-sw/src/app	This is the application layer
-sw/src/rms	This is the main application and scheduling
+sw/processing/src		  This is the top level source folder
+sw/processing/inc	  	This is the top level include folder for all public interfaces
+sw/processing/src/hal	This is the hardware abstraction layer containing the interface drivers
+sw/processing/src/dev	This is the device abstraction layer containing the device abstractions
+sw/processing/src/app	This is the application layer
+sw/processing/src/rms	This is the main application and scheduling
 
 BUILD INSTRUCTIONS
 --------
